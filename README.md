@@ -1,29 +1,80 @@
-
 # AI Agents Collection
 
-This repository contains three independent AI agents.
+This repository contains a small collection of beginner-friendly Python chatbots built as learning projects. Each project is independent and focuses on a different use case.
 
-## 1. Library Chatbot
-A chatbot that answers questions about library books and their availability.
+## Projects
 
-Folder: `library-chatbot/`
+### 1. Library Chatbot
+A simple library assistant that helps users check whether a book is available and answer basic library questions.
 
-## 2. Travel Agent
-A chatbot that provides travel destination details, package prices, trip duration, and availability.
+- Folder: `library-chatbot/`
+- Main file: `library_chatbot.py`
+- Purpose: manage a small library catalog and respond to user queries
 
-Folder: `travel-agent/`
+### 2. Travel Agent
+A command-line travel assistant that shows available destinations, trip durations, package prices, and whether a package is available.
 
-## 3. StudyBuddy
-An AI study assistant designed to help students understand topics and organize their learning.
+- Folder: `Travel-agent-chatbot/`
+- Main file: `travel_agent.py`
+- Purpose: help users explore sample travel packages
 
-Folder: `studybuddy/`
+### 3. StudyBuddy
+A study helper for students that explains common computer science topics and runs short multiple-choice quizzes.
 
-## Project Structure
+- Folder: `StudyBuddy/`
+- Main file: `studyBuddy.py`
+- Purpose: revise topics like Python, Java, AI, databases, and data structures
 
-Each agent is maintained in its own folder with separate code and documentation.
+## Repository Structure
 
-## Technologies
+```text
+ai-agents-collection/
+├── README.md
+├── library-chatbot/
+│   ├── README.md
+│   ├── input.txt
+│   └── library_chatbot.py
+├── Travel-agent-chatbot/
+│   ├── README.md
+│   └── travel_agent.py
+├── StudyBuddy/
+│   ├── README.md
+│   ├── requirements.txt
+│   └── studyBuddy.py
+└──
+```
 
-- Python
-- HTML, CSS, and JavaScript (where applicable)
-- Git and GitHub
+## Technologies Used
+
+- Python 3
+- Standard Python library
+- Simple text-based interfaces
+- Git and GitHub for version control
+
+## How to Run
+
+### Library Chatbot
+```bash
+cd library-chatbot
+python library_chatbot.py
+```
+
+### Travel Agent
+```bash
+cd "Travel-agent-chatbot"
+python travel_agent.py
+```
+
+### StudyBuddy
+```bash
+cd StudyBuddy
+python studyBuddy.py
+```
+
+## Notes
+
+These are educational projects built to practice Python, chatbot logic, user input handling, and simple rule-based responses. They do not rely on external APIs or AI services.
+
+## License
+
+This project is intended for learning and personal use.

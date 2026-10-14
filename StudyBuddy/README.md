@@ -1,28 +1,61 @@
-# StudyBuddy – Personal Study Assistant
+# StudyBuddy
 
-## Overview
-StudyBuddy is a Python-based educational chatbot that helps students revise programming and computer science concepts.
+StudyBuddy is a simple command-line study assistant that helps students learn core computer science concepts, revise key topics, and test themselves with quick multiple-choice questions.
 
 ## Features
-- Explains basic computer science topics
-- Provides random study tips
-- Conducts multiple-choice quizzes
-- Shows the list of supported topics
-- Provides explanations for quiz answers
 
-## Technologies Used
+- Explains topics such as Python, Java, databases, AI, operating systems, and data structures
+- Shows a list of available study topics
+- Gives random study tips
+- Runs a multiple-choice quiz
+- Provides the correct answer and explanation after each question
+- Keeps the interaction simple and beginner-friendly
+
+## Supported Topics
+
 - Python
-- Python standard libraries
+- Java
+- Database
+- AI
+- Operating System
+- Data Structure
 
 ## How to Run
-1. Install Python.
-2. Open a terminal inside the `studybuddy` folder.
-3. Run the following command:
 
-   `python studybuddy.py`
+1. Open a terminal in the StudyBuddy folder.
+2. Run the script:
 
-4. Type `help` to view available commands.
-5. Type `exit` to close the chatbot.
+   ```bash
+   python studyBuddy.py
+   ```
 
-## Current Limitation
-This is a rule-based chatbot. It answers from predefined explanations and quizzes; it does not yet use a generative AI model.
+3. Use commands such as:
+   - `help` to see available actions
+   - `quiz` or `mcq` to start a quiz
+   - `tip` or `study plan` for a study suggestion
+   - `exit` to quit the chatbot
+
+## Example Interaction
+
+```text
+You: help
+StudyBuddy: You can ask me to explain Python, Java, AI, DBMS, OS, or data structures.
+
+You: quiz
+StudyBuddy: Which language is commonly used for AI?
+A. Python
+B. HTML
+C. CSS
+D. SQL
+Your answer (A/B/C/D): A
+Correct! Well done!
+```
+
+## Technologies Used
+
+- Python 3
+- Standard Python library only
+
+## Notes
+
+This project is rule-based and uses predefined content rather than an AI model or external API.
