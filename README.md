@@ -39,7 +39,6 @@ ai-agents-collection/
 │   └── travel_agent.py
 ├── StudyBuddy/
 │   ├── README.md
-│   ├── requirements.txt
 │   └── studyBuddy.py
 └──
 ```
