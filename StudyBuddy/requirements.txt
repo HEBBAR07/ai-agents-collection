@@ -1,3 +1,0 @@
-
-# StudyBuddy currently uses only Python standard libraries.
-# No external packages are required.
